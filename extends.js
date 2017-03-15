@@ -7,6 +7,7 @@ class SuperHero {
 
 class SuperMan extends SuperHero {
   constructor(power, birth_planet) {
+    // We want to inherit power and birth_planet attributes from the parent Superhero class
     // Calls parent class constructor with power and birth_planet
     // i.e. it inherits the power and birth_planet attributes from the parent class SuperHero
     // when the Superman subclass is created
